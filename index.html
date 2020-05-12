@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+  
+  <script src="p5.min.js"></script>
+    <script src="p5.dom.min.js"></script>
+    <script src="p5.sound.min.js"></script>
+    <script src="matter.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+
+
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyBxFSztIRzWruX3s4_aAja-hoXt7v1N9MI",
+        authDomain: "painting-13cb3.firebaseapp.com",
+        databaseURL: "https://painting-13cb3.firebaseio.com",
+        projectId: "painting-13cb3",
+        storageBucket: "painting-13cb3.appspot.com",
+        messagingSenderId: "578381563242",
+        appId: "1:578381563242:web:23a08f999c75874a28d113"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+</head>
+<body>
+  <p>
+    <button id = "clearButton">clear</button>
+  </p>
+    <script src="sketch.js"></script>
+</body>
+</html>
